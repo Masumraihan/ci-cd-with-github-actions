@@ -4,7 +4,7 @@ const PORT = 1000;
 
 app.get("/", (req, res) => {
   return res.json({
-    message: "Hello World",
+    message: "Hello World from Node.js",
   });
 });
 
